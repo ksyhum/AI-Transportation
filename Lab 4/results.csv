@@ -1,0 +1,19 @@
+Vectorizer,Model,Best Params,Accuracy,Predicted Sentiment
+CountVectorizer,LogisticRegression,{'C': 10},0.9478672985781991,positive
+CountVectorizer,KNN,"{'n_neighbors': 9, 'weights': 'distance'}",0.95260663507109,positive
+CountVectorizer,RandomForest,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 100}",0.9715639810426541,positive
+CountVectorizer,XGBoost,"{'learning_rate': 0.2, 'max_depth': 4, 'n_estimators': 200}",0.9597156398104265,positive
+CountVectorizer,SVM,"{'C': 1, 'kernel': 'rbf'}",0.9597156398104265,positive
+CountVectorizer,NaiveBayes,{'alpha': 0.5},0.9502369668246445,positive
+HashingVectorizer,LogisticRegression,{'C': 10},0.9502369668246445,positive
+HashingVectorizer,KNN,"{'n_neighbors': 9, 'weights': 'distance'}",0.9407582938388626,positive
+HashingVectorizer,RandomForest,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 300}",0.976303317535545,positive
+HashingVectorizer,XGBoost,"{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 100}",0.9644549763033176,positive
+HashingVectorizer,SVM,"{'C': 1, 'kernel': 'rbf'}",0.976303317535545,positive
+HashingVectorizer,NaiveBayes,{'alpha': 0.5},0.8175355450236966,positive
+TfidfVectorizer,LogisticRegression,{'C': 1},0.9620853080568721,positive
+TfidfVectorizer,KNN,"{'n_neighbors': 9, 'weights': 'distance'}",0.9146919431279621,positive
+TfidfVectorizer,RandomForest,"{'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 300}",0.9691943127962085,positive
+TfidfVectorizer,XGBoost,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200}",0.9715639810426541,positive
+TfidfVectorizer,SVM,"{'C': 1, 'kernel': 'rbf'}",0.9620853080568721,positive
+TfidfVectorizer,NaiveBayes,{'alpha': 1},0.95260663507109,positive
